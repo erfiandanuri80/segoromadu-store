@@ -1,0 +1,1 @@
+# segoromadu.store
