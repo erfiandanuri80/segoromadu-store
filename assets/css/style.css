@@ -341,6 +341,14 @@ header .navbar {
   background-position: center center;
 }
 
+.banner-item-02 {
+  padding: 300px 0px;
+  background-image: url(../images/slider-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .banner .banner-item {
   max-height: 600px;
 }
@@ -539,15 +547,19 @@ header .navbar {
 /* Call To Action */
 
 .call-to-action .inner-content {
-  margin-top: 60px;
-  padding: 30px;
+  padding: 10px;
   background-color: #f7f7f7;
   border-radius: 5px;
 }
 
 .call-to-action .inner-content h4 {
-  font-size: 17px;
+  font-size: 20px;
   color: #1a6692;
+  margin-bottom: 15px;
+}
+.call-to-action .inner-content p {
+  font-size: 18px;
+  text-align: justify;
   margin-bottom: 15px;
 }
 
@@ -571,6 +583,7 @@ footer {
 }
 
 footer .inner-content {
+  background-color: #ddd;
   border-top: 1px solid #eee;
   margin-top: 60px;
   padding: 60px 0px;
@@ -730,40 +743,6 @@ footer .inner-content p a {
   color: #fff;
 }
 
-.accordion {
-  margin-left: 30px;
-}
-
-.accordion a {
-  cursor: pointer;
-  font-size: 17px;
-  color: #1a6692 !important;
-  margin-bottom: 20px;
-  transition: all 0.3s;
-}
-
-.accordion a:hover {
-  color: #2a6c61 !important;
-}
-
-.accordion a.active {
-  color: #2a6c61 !important;
-}
-
-.accordion li .content {
-  display: none;
-  margin-top: 10px;
-}
-
-.accordion li:first-child {
-  border-top: 1px solid #eee;
-}
-
-.accordion li {
-  border-bottom: 1px solid #eee;
-  padding: 15px 0px;
-}
-
 /* Responsive Style */
 @media (max-width: 768px) {
   .banner .text-content {
@@ -822,9 +801,6 @@ footer .inner-content p a {
     margin-top: 20px;
   }
   .about-features img {
-    margin-bottom: 30px;
-  }
-  .service-item {
     margin-bottom: 30px;
   }
   .find-us #map {
@@ -894,4 +870,19 @@ footer .inner-content p a {
     right: 0;
     bottom: 0;
   }
+}
+.services {
+  margin: 30px 0;
+}
+.services .section-heading {
+  margin: 30px 0;
+}
+.services .services-item {
+  text-align: center;
+}
+.services .services-item a {
+  margin: 20px;
+}
+.services .services-item a img:hover {
+  background-color: #ddd;
 }
